@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing 11</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-2LcC3IJ2PCaOKVu4jQuvEptQF15t8Y+dzgZ+pTRNplU0pXUhyAlGB8rAHb5y0wOcPsslC+2i12x5X+3G45Q3BQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Header with Logo and Navigation -->
+    <header class="main-header small-header" id="home">
+        <div class="container header-container" style="padding-top: 10px; padding-bottom: 10px;">
+            <div class="logo">
+                <img src="logo-placeholder.png" alt="Playing 11 logo">
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#hero-section">Home</a></li>
+                    <li><a href="#sports">Sports</a></li>
+                    <li><a href="cafe.html">Cafe</a></li>
+                    <li><a href="upcoming.html">Upcoming Games</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero-section">
+        <div class="hero-overlay">
+            <h1>Welcome to Playing 11</h1>
+            <p> - A unit of SAG sports Arena</p>
+            <p>Experience Cricket, Football &amp; Indoor Games</p>
+            <!-- Anchor scrolls down to booking section; button styling via CSS -->
+            <a href="#booking" class="btn">Book Now</a>
+        </div>
+    </header>
+
+    <!-- Sports Overview -->
+    <section class="sports" id="sports">
+        <div class="container">
+            <h2>Sports We Offer</h2>
+            <div class="sports-grid">
+                <!-- Cricket Card -->
+                <div class="sport-card">
+                    <i class="fa-solid fa-cricket-bat-ball fa-3x" aria-hidden="true"></i>
+                    <h3>Cricket</h3>
+                    <p>Play on our world‑class cricket pitch complete with nets, professional equipment and floodlights for day or night matches.</p>
+                </div>
+                <!-- Football Card -->
+                <div class="sport-card">
+                    <i class="fa-solid fa-futbol fa-3x" aria-hidden="true"></i>
+                    <h3>Football</h3>
+                    <p>Challenge your friends on our lush green football ground with premium turf, proper markings and everything you need for five‑a‑side or full‑team games.</p>
+                </div>
+                <!-- Indoor Games Card -->
+                <div class="sport-card">
+                    <i class="fa-solid fa-chess-board fa-3x" aria-hidden="true"></i>
+                    <h3>Indoor Games</h3>
+                    <p>Enjoy table tennis, carrom, pool, chess and other indoor games in our comfortable, climate‑controlled lounge.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Box Cricket Section -->
+    <section class="box-cricket" id="boxcricket">
+        <div class="container">
+            <div class="box-content">
+                <div class="box-image">
+                    <!-- Placeholder image for box cricket. Replace box_cricket.png with a real photo of your arena if available. -->
+                    <img src="box_cricket.png" alt="Box Cricket Turf">
+                </div>
+                <div class="box-text">
+                    <h2>Box Cricket</h2>
+                    <p>Our enclosed box cricket arena is perfect for fast‑paced, small‑sided matches. With premium artificial turf, high nets and powerful lighting, you can enjoy uninterrupted play day or night, rain or shine.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Football Section -->
+    <section class="football" id="football">
+        <div class="container">
+            <div class="football-content">
+                <div class="football-text">
+                    <h2>Football</h2>
+                    <p>From five‑a‑side kickabouts to full‑scale tournaments, our football turf features top‑quality synthetic grass, perimeter netting and bright LED floodlights. It’s ideal for friendly matches, leagues and corporate events alike.</p>
+                </div>
+                <div class="football-image">
+                    <!-- Placeholder image for the football turf. Replace football.png with an actual photo of your field if available. -->
+                    <img src="football.png" alt="Football Turf">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Cafe Section -->
+    <section class="cafe" id="cafe">
+        <div class="container">
+            <div class="cafe-content">
+                <div class="cafe-image">
+                    <img src="cafe.png" alt="Cafe Interior">
+                </div>
+                <div class="cafe-text">
+                    <h2>The Café</h2>
+                    <p>After an exciting game, relax at our cozy café. We serve freshly brewed coffee, a variety of beverages and delicious snacks in a warm and inviting atmosphere—perfect for recharging and catching up with friends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Indoor Games Section -->
+    <section class="indoor" id="indoor">
+        <div class="container">
+            <div class="indoor-content">
+                <div class="indoor-text">
+                    <h2>Indoor Games Zone</h2>
+                    <p>Our indoor games arena provides a relaxing space for friendly matches of table tennis, carrom, pool and board games. It’s the perfect place to unwind, challenge friends or host a casual tournament regardless of the weather outside.</p>
+                </div>
+                <div class="indoor-image">
+                    <img src="indoor_games.png" alt="Indoor Games Area">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <h2>Ready to Play?</h2>
+            <p>Reserve your slot now by clicking the button below. You’ll be taken to WhatsApp to confirm your booking with us.</p>
+            <!-- Replace YOURPHONENUMBER with your actual WhatsApp number -->
+            <a href="https://wa.me/9391425692?text=I%20would%20like%20to%20book%20a%20slot" target="_blank" class="btn btn-book">Book Now via WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 SAG sports arena. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

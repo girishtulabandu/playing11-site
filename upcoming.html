@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Games | Playing 11</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-2LcC3IJ2PCaOKVu4jQuvEptQF15t8Y+dzgZ+pTRNplU0pXUhyAlGB8rAHb5y0wOcPsslC+2i12x5X+3G45Q3BQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header class="main-header" id="home">
+        <div class="container header-container" style="padding-top: 10px; padding-bottom: 10px;">
+            <div class="logo">
+                <img src="logo-placeholder.png" alt="Playing 11 logo">
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#sports">Sports</a></li>
+                    <li><a href="cafe.html">Cafe</a></li>
+                    <li><a href="upcoming.html">Upcoming Games</a></li>
+                    <li><a href="index.html#booking">Booking</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Upcoming Games Hero Section -->
+    <section class="hero upcoming-hero">
+        <div class="hero-overlay">
+            <h1>Upcoming Games</h1>
+            <p>Stay tuned for our latest tournaments, leagues and special events</p>
+        </div>
+    </section>
+
+    <section class="indoor" id="indoor">
+        <div class="container">
+            <div class="indoor-content">
+                <div class="indoor-text" style="flex: 1;">
+                    <h2>Indoor Games Zone</h2>
+                    <p>Our indoor games arena provides a relaxing space for friendly matches of table tennis, carrom, pool and board games. It’s the perfect place to unwind, challenge friends or host a casual tournament regardless of the weather outside.</p>
+                </div>
+                <div class="indoor-image">
+                    <img src="indoor_games.png" alt="Indoor Games Area">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pickle_ball" id="pickle_ball">
+        <div class="container">
+            <div class="pickle_ball-content">
+                <div class="pickle_ball-image" style="flex: 1; text-align: right;">
+                    <img src="pickle_ball.png" alt="Pickle Ball Area">
+                </div>
+                <div class="pickle_ball-text">
+                    <h2>Pickle ball</h2>
+                    <p>Pickle ball in our arena provides a relaxing space for friendly matches. It’s the perfect place to unwind, challenge friends or host a casual tournament regardless of the weather outside.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="yoga" id="yoga">
+        <div class="container">
+            <div class="yoga-content">
+                <div class="yoga-text">
+                    <h2>Yoga Classes</h2>
+                    <p>Join our yoga classes to relax and rejuvenate. Our experienced instructors guide you through various poses and breathing techniques to enhance your well-being.</p>
+                </div>
+                <div class="yoga-image">
+                    <img src="yoga_classes.png" alt="Yoga Classes">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Games List -->
+    <section class="upcoming" id="upcoming-section">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <div class="games-list">
+                <!-- Sample event 1 -->
+                <div class="game-card">
+                    <h3>Playing 11 Box Cricket League</h3>
+                    <p><strong>Date:</strong> 15 October 2025 – 20 October 2025</p>
+                    <p><strong>Location:</strong> Playing 11 Turf, Bapatla</p>
+                    <p><strong>Details:</strong> A five‑day tournament featuring eight teams battling it out in exciting box cricket matches. Register now to join the action!</p>
+                </div>
+                <div class="game-card">
+                    <h3>Annual Football Championship</h3>
+                    <p><strong>Date:</strong> 5 November 2025</p>
+                    <p><strong>Location:</strong> Playing 11 Turf, Bapatla</p>
+                    <p><strong>Details:</strong> Our flagship 5‑a‑side football event. Teams from across Andhra Pradesh compete for the coveted Playing 11 Cup.</p>
+                </div>
+                <div class="game-card">
+                    <h3>Corporate Sports Day</h3>
+                    <p><strong>Date:</strong> 20 December 2025</p>
+                    <p><strong>Location:</strong> Playing 11 Sports Complex</p>
+                    <p><strong>Details:</strong> An exclusive day for corporate teams to enjoy friendly matches of cricket, football and indoor games followed by networking at our café.</p>
+                </div>
+                <style>
+                .games-list {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                }
+                .game-card {
+                    background: rgba(255,255,255,0.2); /* transparent white */
+                    border-radius: 10px;
+                    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+                    padding: 24px;
+                    margin: 0;
+                }
+                </style>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 SAG sports arena. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
