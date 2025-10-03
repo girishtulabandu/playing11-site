@@ -3,7 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playing 11</title>
+    <meta name="description" content="Enjoy cricket, football, box cricket, indoor games at Playing 11 Sports Turf in Kukatpally, Hyderabad. Premium turf, floodlights and professional equipment. Book your game now!">
+    <meta property="og:title" content="Playing 11 Sports Turf & Cafe in Kukatpally" />
+    <meta property="og:description" content="Play cricket, football and indoor games on premium turf" />
+    <meta property="og:image" content="https://girishtulabandu.github.io/playing11-site/hero.png" />
+    <meta property="og:url" content="https://girishtulabandu.github.io/playing11-site/index.html" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://girishtulabandu.github.io/playing11-site/index.html" />
+    <meta name="robots" content="index, follow">
+    <title>Playing 11 Sports Turf in Kukatpally | Cricket, Football & Indoor Games</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Font Awesome for icons -->
@@ -16,14 +25,14 @@
     <header class="main-header small-header" id="home">
         <div class="container header-container" style="padding-top: 10px; padding-bottom: 10px;">
             <div class="logo">
-                <img src="logo-placeholder.png" alt="Playing 11 logo">
+                <img src="sports/sports_logo.png" alt="Playing 11 logo">
             </div>
             <nav class="nav-menu">
                 <ul>
                     <li><a href="#hero-section">Home</a></li>
                     <li><a href="#sports">Sports</a></li>
-                    <li><a href="cafe.html">Cafe</a></li>
-                    <li><a href="upcoming.html">Upcoming Games</a></li>
+                    <li><a href="cafe/cafe.html">Cafe</a></li>
+                    <li><a href="sports/upcoming/upcoming.html">Upcoming Games</a></li>
                     <li><a href="#booking">Booking</a></li>
                 </ul>
             </nav>
@@ -59,11 +68,11 @@
                     <p>Challenge your friends on our lush green football ground with premium turf, proper markings and everything you need for five‑a‑side or full‑team games.</p>
                 </div>
                 <!-- Indoor Games Card -->
-                <div class="sport-card">
+                <!-- <div class="sport-card">
                     <i class="fa-solid fa-chess-board fa-3x" aria-hidden="true"></i>
                     <h3>Indoor Games</h3>
                     <p>Enjoy table tennis, carrom, pool, chess and other indoor games in our comfortable, climate‑controlled lounge.</p>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -75,7 +84,7 @@
             <div class="box-content">
                 <div class="box-image">
                     <!-- Placeholder image for box cricket. Replace box_cricket.png with a real photo of your arena if available. -->
-                    <img src="box_cricket.png" alt="Box Cricket Turf">
+                    <img src="sports/cricket/box_cricket.png" alt="Box Cricket Turf">
                 </div>
                 <div class="box-text">
                     <h2>Box Cricket</h2>
@@ -96,43 +105,61 @@
                 </div>
                 <div class="football-image">
                     <!-- Placeholder image for the football turf. Replace football.png with an actual photo of your field if available. -->
-                    <img src="football.png" alt="Football Turf">
+                    <img src="sports/football/football.png" alt="Football Turf">
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Upcoming Games Section -->
+    <section class="upcoming-games" id="upcoming-games">
+        <div class="container">
+            <h2>Upcoming Games & Activities</h2>
+            <div class="upcoming-games-activity-list">
+                <div class="upcoming-games-activity-card">
+                    <h3>Pickleball</h3>
+                    <p>Join our fast-paced pickleball sessions, suitable for all skill levels. Enjoy friendly matches and learn new techniques.</p>
+                </div>
+                <div class="upcoming-games-activity-card">
+                    <h3>Indoor Games</h3>
+                    <p>Participate in tournaments for table tennis, carrom, chess, and more in our comfortable indoor lounge.</p>
+                </div>
+                <div class="upcoming-games-activity-card">
+                    <h3>Yoga</h3>
+                    <p>Relax and rejuvenate with our guided yoga sessions, open to all ages and experience levels.</p>
+                </div>
+            </div>
+        </div>
+        <a href="sports/upcoming/upcoming.html" class="btn">View Upcoming Games</a>
+    </section>
 
     <!-- Cafe Section -->
     <section class="cafe" id="cafe">
         <div class="container">
+            <h2>Cafe</h2>
             <div class="cafe-content">
-                <div class="cafe-image">
-                    <img src="cafe.png" alt="Cafe Interior">
-                </div>
+                <!-- <div class="cafe-image">
+                    <img src="cafe/cafe.png" alt="Cafe Area">
+                </div> -->
                 <div class="cafe-text">
-                    <h2>The Café</h2>
-                    <p>After an exciting game, relax at our cozy café. We serve freshly brewed coffee, a variety of beverages and delicious snacks in a warm and inviting atmosphere—perfect for recharging and catching up with friends.</p>
+                    <p>Relax and recharge at our on-site cafe. Enjoy a variety of snacks, beverages, and light meals in a cozy atmosphere—perfect for players and spectators alike.</p>
+                    <a href="cafe/cafe.html" class="btn">Explore Cafe Menu</a>
                 </div>
             </div>
         </div>
     </section>
 
-        <!-- Indoor Games Section -->
-    <section class="indoor" id="indoor">
-        <div class="container">
-            <div class="indoor-content">
-                <div class="indoor-text">
-                    <h2>Indoor Games Zone</h2>
-                    <p>Our indoor games arena provides a relaxing space for friendly matches of table tennis, carrom, pool and board games. It’s the perfect place to unwind, challenge friends or host a casual tournament regardless of the weather outside.</p>
-                </div>
-                <div class="indoor-image">
-                    <img src="indoor_games.png" alt="Indoor Games Area">
-                </div>
+    <!-- Cafe Section -->
+    <!-- <section class="cafe" id="cafe" style="position: relative; background: url('cafe/cafe.png') center center/cover no-repeat; min-height: 350px; display: flex; align-items: center;">
+        <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.5);"></div>
+        <div class="container" style="position: relative; z-index: 1; color: #fff;">
+            <h2 style="color: #fff;">Cafe</h2>
+            <div class="cafe-text" style="max-width: 500px;">
+                <p>Relax and recharge at our on-site cafe. Enjoy a variety of snacks, beverages, and light meals in a cozy atmosphere—perfect for players and spectators alike.</p>
+                <a href="cafe/cafe.html" class="btn" style="background: #fff; color: #222;">Explore Cafe Menu</a>
             </div>
         </div>
-    </section>
-
+    </section> -->
 
     <!-- Booking Section -->
     <section class="booking" id="booking">

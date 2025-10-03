@@ -181,52 +181,6 @@ body {
     color: #d1dce5;
 }
 
-/* Cafe Section */
-.cafe {
-    position: relative;
-    min-height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(rgba(20, 40, 80, 0.5), rgba(20, 40, 80, 0.5)), url('cafe/cafe.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.cafe::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.5);
-    z-index: 1;
-}
-
-.cafe .container {
-    position: relative;
-    z-index: 2;
-    color: #cdaa7d;
-    text-align: center;
-}
-
-.cafe .container h2 {
-    color: #cdaa7d;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    font-weight: 600;
-}
-
-.cafe-text {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.cafe-text p {
-    font-size: 1.1rem;
-    color: #d1dce5;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
 /* Buttons */
 .btn {
     display: inline-block;
@@ -307,6 +261,178 @@ body {
     color: #d1dce5;
 }
 
+/* Indoor Games Section */
+.indoor {
+    background-color: #0f1923;
+}
+
+.indoor-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.indoor-text {
+    flex: 1;
+    min-width: 280px;
+}
+
+.indoor-text h2 {
+    font-size: 2.5rem;
+    color: #cdaa7d;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.indoor-text p {
+    font-size: 1rem;
+    color: #d1dce5;
+    line-height: 1.6;
+}
+
+.indoor-image {
+    flex: 1;
+    min-width: 280px;
+}
+
+.indoor-image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Café Section */
+.cafe {
+    background-color: #112233;
+}
+
+.cafe-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.cafe-image {
+    flex: 1;
+    min-width: 280px;
+}
+
+.cafe-image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.cafe-text {
+    flex: 1;
+    min-width: 280px;
+}
+
+
+.cafe-text h2 {
+    font-size: 2.5rem;
+    color: #cdaa7d;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.cafe-text p {
+    font-size: 1rem;
+    color: #d1dce5;
+    line-height: 1.6;
+}
+
+
+/* yoga Section */
+.yoga {
+    background-color: #0f1923;
+}
+
+.yoga-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.yoga-image {
+    flex: 1;
+    min-width: 280px;
+}
+
+.yoga-image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.yoga-text {
+    flex: 1;
+    min-width: 280px;
+}
+
+
+.yoga-text h2 {
+    font-size: 2.5rem;
+    color: #cdaa7d;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.yoga-text p {
+    font-size: 1rem;
+    color: #d1dce5;
+    line-height: 1.6;
+}
+
+
+/* pickleball Section */
+.pickle_ball {
+    background-color: #112233;
+}
+
+.pickle_ball-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.pickle_ball-image {
+    flex: 1;
+    min-width: 280px;
+}
+
+.pickle_ball-image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.pickle_ball-text {
+    flex: 1;
+    min-width: 280px;
+}
+
+
+.pickle_ball-text h2 {
+    font-size: 2.5rem;
+    color: #cdaa7d;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.pickle_ball-text p {
+    font-size: 1rem;
+    color: #d1dce5;
+    line-height: 1.6;
+}
 
 /* Booking Section */
 .booking {
@@ -326,56 +452,6 @@ body {
     color: #d1dce5;
     margin-bottom: 30px;
     font-size: 1rem;
-}
-
-/* home upcoming Section */
-.upcoming-games {
-    background-color: #112233;
-    text-align: center;
-    padding: 80px 0;
-}
-
-.upcoming-games h2 {
-    font-size: 2.5rem;
-    color: #cdaa7d;
-    margin-bottom: 20px;
-    font-weight: 600;
-}
-
-.upcoming-games p {
-    color: #d1dce5;
-    margin-bottom: 30px;
-    font-size: 1rem;
-}
-.upcoming-games-activity-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 40px;
-}
-
-.upcoming-games-activity-card {
-    background-color: #0f1923;
-    border-radius: 10px;
-    padding: 25px;
-    flex: 1 1 250px;
-    max-width: 350px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.upcoming-games-activity-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-}
-
-@media (max-width: 900px) {
-    .upcoming-games-activity-list {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 /* Footer */
